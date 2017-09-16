@@ -1,0 +1,67 @@
+{
+    "language": "tr",
+	"commands": {
+		"mymoney": {
+			"usage": "/mymoney",
+			"description": "Paranızı öğrenirsiniz."
+		},
+		"topmoney": {
+			"usage": "/topmoney [sayfa]",
+			"description": "Sunucudaki en zengin insanları görürsünüz."
+		},
+		"setmoney": {
+			"usage": "/setmoney <oyuncu> <para>",
+			"description": "Set money of player."
+		},
+		"seemoney": {
+			"usage": "/seemoney <oyuncu>",
+			"description": "Başka bir oyuncunun parasını öğrenirsiniz."
+		},
+		"givemoney": {
+			"usage": "/givemoney <oyuncu> <para>",
+			"description": "Gives money to player."
+		},
+		"takemoney": {
+			"usage": "/takemoney <oyuncu> <para>",
+			"description": "Takes money from player."
+		},
+		"pay": {
+			"usage": "/pay <oyuncu> <para>",
+			"description": "Başka bir oyuncuya para gönderirsiniz."
+		},
+		"setlang": {
+			"usage": "/setlang <dil>",
+			"description": "Dili belirlersiniz."
+		},
+		"mystatus": {
+			"usage": "/mystatus",
+			"description": "Tüm oyuncular arasında para olarak yüzdelik diliminizi gösterir."
+		}
+	},
+    "language-set": "§8»§3 Dil §7%1 §3olarak değiştirildi§7.§a Çeviriyi Yapan Kişi §7:§6 xKaymakliYogurt",
+    "request-cancelled": "§8»§c İsteğin reddedildi§7.",
+    "player-not-connected": "§8»§7 %1 §3adlı oyuncu sunucuda değil§7.",
+    "player-never-connected": "§8»§7 %1 §3adlı oyuncu bu sunucuya hiç giriş yapmamış§7.",
+    "topmoney-tag": "§8»§6 Zenginler Sıralaması §7[§a%1§7/§a%2§7] §8«",
+    "topmoney-format": "§3%1.§7 »§r§3 %2 §7: §3%3§7%MONETARY_UNIT%",
+    "pay-failed": "§8»§c Para gönderme işlemi başarısız§7.",
+    "pay-success": "§8»§3 %1§7%MONETARY_UNIT% §7%2 §3adlı oyuncuya gönderildi§7.",
+    "money-paid": "§8»§7 %1 §3adlı oyuncu sana %2§7%MONETARY_UNIT% §3gönderdi§7.",
+    "takemoney-must-be-number": "§8»§c Miktar sayısal biçimde olmalıdır§7.",
+    "takemoney-invalid-number": "§8»§c Geçersiz numara§7.",
+    "takemoney-player-lack-of-money": "§8» %1 §3adlı oyucunun %3§7%MONETARY_UNIT% §3parası var§7.",
+    "takemoney-money-taken": "§8»§3 Senin %1§7%MONETARY_UNIT% §3paran silindi§7.",
+    "takemoney-took-money": "§8»§7 %1 §3adlı oyuncunun %2%MONETARY_UNIT% §3parası silindi§7.",
+    "takemoney-failed": "§8»§c Para silme işlemi başarısız§7.",
+    "givemoney-must-be-number": "§8»§3 Miktar sayısal biçimde olmalıdır§7.",
+    "givemoney-invalid-number": "§8»§c Geçersiz numara§7.",
+    "givemoney-money-given": "§8»§3 Sana %1§7%MONETARY_UNIT% §3verildi§7.",
+    "givemoney-gave-money": "§8»§7 %2 §3adlı oyuncuya %1§7%MONETARY_UNIT% §3verildi§7.",
+    "seemoney-seemoney": "§8»§7 %1§3 adlı oyuncunun parası §7: §3%2§7%MONETARY_UNIT%",
+    "setmoney-setmoney": "§8»§7 %1 §3adlı oyuncunun parası §3%2§7%MONETARY_UNIT% §3olarak değiştirildi§7.",
+    "setmoney-set": "§8»§3 Senin paran §3%1§7%MONETARY_UNIT% §3olarak değiştirildi§7.",
+    "setmoney-failed": "§8»§3 Para değiştirme işlemi başarısız§7.",
+    "setmoney-invalid-number": "§8»§3 %1§7%MONETARY_UNIT% §3numara biçiminde olmalıdır§7.",
+    "mymoney-mymoney": "§7Mevcut Paran : §3%1§7%MONETARY_UNIT%",
+    "mystatus-show": "§7Tüm oyuncular arasında parasal yüzdelik dilimin : §3%1%"
+}
